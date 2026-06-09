@@ -1,6 +1,6 @@
 # Starlet Math
 
-[![Tests](https://github.com/starlet-engine/math/actions/workflows/tests.yml/badge.svg)](https://github.com/starlet-engine/math/actions/workflows/tests.yml)
+[![Tests](https://github.com/starlet-libs/math/actions/workflows/tests.yml/badge.svg)](https://github.com/starlet-libs/math/actions/workflows/tests.yml)
 [![C++20](https://img.shields.io/badge/C%2B%2B-20-blue.svg)](https://isocpp.org/std/the-standard)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
 
@@ -37,7 +37,7 @@ This makes it perfect for learning, experimentation, but not a drop-in replaceme
 include(FetchContent)
 
 FetchContent_Declare(starlet_math
-  GIT_REPOSITORY https://github.com/starlet-engine/math.git 
+  GIT_REPOSITORY https://github.com/starlet-libs/math.git
   GIT_TAG main
 )
 FetchContent_MakeAvailable(starlet_math)
@@ -59,7 +59,7 @@ executable('app_name', 'main.cpp', dependencies: starlet_math_dep)
 ## Building and Testing
 ```bash
 # 1. Clone starlet-math
-git clone https://github.com/starlet-engine/math.git
+git clone https://github.com/starlet-libs/math.git
 cd starlet-math
 ```
 
