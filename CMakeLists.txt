@@ -8,8 +8,8 @@ set(PROJECT_INC_DIR "${CMAKE_CURRENT_SOURCE_DIR}/inc")
 if(NOT TARGET ${PROJECT_NAME})
   add_library(${PROJECT_NAME} INTERFACE)
 
-  target_include_directories(${PROJECT_NAME} 
-    INTERFACE 
+  target_include_directories(${PROJECT_NAME}
+    INTERFACE
     $<BUILD_INTERFACE:${PROJECT_INC_DIR}>
     $<INSTALL_INTERFACE:include>
   )
